@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
   const [name, setName] = useState('')
-  console.log(name3333--3)
+  console.log(nam33e3333--3)
   return (
     <>
       <div>
