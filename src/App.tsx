@@ -8,8 +8,6 @@ function App() {
   const handleCount = useCallback() => {
     setCount((count) => count +  1)
   },[])
-
-  console.info('count',count)
   return (
     <>
       <div>
