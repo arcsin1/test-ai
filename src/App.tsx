@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
   const handleCount = useCallback() => {
-    setCount((count) => count + 1)
+    setCount((count) => count +  2)
   },[])
   return (
     <>
