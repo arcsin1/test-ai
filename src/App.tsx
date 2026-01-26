@@ -6,7 +6,7 @@ function App() {
   const handleCount = useCallback() => {
     setCount((count) => count +  1)
   },[])
-  console.info('count',count)
+
   return (
     <>
       <h1>Vite + React</h1>
